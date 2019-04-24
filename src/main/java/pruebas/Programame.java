@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Programame {
-
+	int cases=0;
 	public List<String> problemaA(List<String> entrada) {
 		ArrayList salida = null;
 		return salida;
@@ -29,5 +29,6 @@ public class Programame {
 		ArrayList salida = null;
 		return salida;
 	}
+	
 
 }
