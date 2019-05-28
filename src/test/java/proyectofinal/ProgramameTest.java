@@ -51,16 +51,7 @@ class ProgramameTest {
 				ej.problemaA(new ArrayList<>(Arrays.asList("4", "12", "0"))).toArray());
 	}
 
-	/**
-	 * Enunciado en ProblemaD.pdf
-	 */
-	@Test
-	void testProblemaD() {
-		assertNotNull(ej.problemaD(Collections.EMPTY_LIST));
-		assertArrayEquals(new String[] { "VICTORIA", "GAMEOVER", "PERDIDO" }, ej.problemaA(new ArrayList<>(
-				Arrays.asList("3", "2", "1", "1 2", "2", "3", "1", "1 2", "2,3", "5", "2", "1 2", "3 2", "2,3")))
-						.toArray());
-	}
+
 
 	/**
 	 * Enunciado en ProblemaE.pdf
